@@ -1,0 +1,139 @@
+body {
+	box-sizing: border-box;
+	background-color: #161616;
+	color: #fff;
+	font-family: Raleway;
+	font-size: 16px;
+}
+
+.navbar-bottom {
+	border-radius: 20px;
+	height: 65px;
+	background-color: #1d1d1d85;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 80%;
+    margin-bottom: 30px;
+    margin-left: 31px;
+    box-shadow: 0px 0px 25px 0px rgb(8 8 8 / 44%);
+    backdrop-filter: blur(10px);
+}
+
+.navbar-bottom p {
+	font-weight: 400;
+	font-size: 12px;
+	margin-top: -3px;
+}
+
+.navbar-bottom img {
+	margin-top: 10px;
+}
+
+.sliv {
+	margin-right: 65px;
+	margin-left: 60px;
+}
+
+.sliv {
+	padding-left: 5px;
+}
+
+.new img {
+	padding-left: 6px;
+}
+
+.navbar {
+	left: 0;
+	right: 0;
+	top: 0;
+	overflow: hidden;
+	position: fixed;
+	background-color: #141414e6;
+	display: flex;
+	width: 102%;
+	margin-left: -7px;
+	align-items: center;
+	backdrop-filter: blur(10px);
+	box-shadow: 0px 0px 25px 0px rgb(0 0 0 / 68%);
+}
+
+.navbar h3 {
+	margin-left: 20px;
+}
+
+.uved {
+	background-color: #2e2e2ead;
+	border-radius: 10px;
+	padding: 4px;
+	margin-left: 60%;
+}
+
+.content {
+	padding-top: 50px;
+	margin-bottom: 110px;
+}
+
+.content hr {
+	width: 175px;
+	border-color: gray;
+	margin-top: -15px;
+}
+
+.news {
+	margin-top: 15px;
+    border: solid 2px #34343461;
+    background-color: #1c1c1cc2;
+    border-radius: 15px;
+}
+
+.title-new {
+	margin: 10px 0px 0px 10px;
+    color: #5975ff;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.text-new {
+	margin: 4px 0px 7px 10px;
+    color: gray;
+    font-size: 15px;
+}
+
+.like {
+	padding-bottom: 2px;
+	text-align: center;
+	height: auto;
+    width: 30px;
+    border: solid 2px #ff3e3e;
+    background-color: #ff5f5f75;
+    border-radius: 20px;
+    display: inline-grid;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.dislike {
+	padding-bottom: 2px;
+	text-align: center;
+	height: auto;
+    width: 30px;
+    border: solid 2px #8f8f8fa3;
+    background-color: #50505078;
+    border-radius: 20px;
+    display: inline-grid;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.heart {
+	margin-left: 75%;
+	margin-top: -5%;
+}
